@@ -4,9 +4,9 @@ The code for the final project of CS 598: Systems for Generative AI, Spring 2025
 ## How to run the code
 Run the stimulation experiment from ``bo/simulate.ipynb``.
 
-Run the profiler for prefill and decode by ``python profiler/profiler_vlm.py``.
+Run the profiler for prefill and decode workloads by ``python profiler/profiler_vlm.py``.
 
-Run the profiler for object detection by ``python profiler/profiler_vlm.py``.
+Run the profiler for object detection workload by ``python profiler/profiler_yolo.py``.
 
 ## File Description
 ``bo/DVFSController.py``
@@ -28,10 +28,10 @@ The code module for dynamic voltage and frequency scaling.
 The code module for power measurement.
 
 ``profiler/task``
-The code module that conducts the specific workload, including YOLO object detection, Gemma prefill, Gemma decode.
+The code module that conducts the specific workload, including YOLO object detection, Gemma prefill, and Gemma decode.
 
 ``dataset``
-The SLO trace for object detection, prefill, and decode used in the evaluation.
+The SLO trace for object detection, prefill, and decode workloads used in the evaluation.
 
 ``result``
-The profiling results.
+The frequency-performance profiling results.
